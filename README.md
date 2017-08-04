@@ -1,6 +1,6 @@
-# Markdown It! plugin for GitHub flavoured markdown YAML preambles
+# Markdown It! plugin for YAML preambles
 
-This plugin can turn fenced code blocks at the start of your markdown files into tables, replicating functionality from GitHub flavoured markdown, commonly required for static site generators such as Jekyll. Originally build for [Appraise](https://github.com/gojko/appraise).
+This plugin can turn fenced code blocks at the start of your markdown files into tables, replicating functionality from GitHub flavoured markdown, commonly required for static site generators such as Jekyll. Originally built for [Appraise](https://github.com/gojko/appraise).
 
 Turns blocks like these:
 
