@@ -1,0 +1,45 @@
+{
+  "name": "markdown-it-github-preamble",
+  "version": "1.0.0",
+  "description": "Markdown It! plugin for parsing and rendering GitHub flavoured markdown YAML preambles Edit",
+  "main": "src/markdown-it-github-preamble.js",
+  "scripts": {
+    "pretest": "eslint src tests",
+    "test": "node tests/jasmine-runner.js",
+    "debug": "node debug tests/jasmine-runner.js"
+  },
+  "keywords": [
+    "appraise",
+    "ghm",
+    "yaml",
+    "markdown",
+    "markdown-it",
+    "markdown-it-plugin"
+  ],
+  "files": [
+    "src",
+    "*.png",
+    "*.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gojko/markdown-it-github-preamble.git"
+  },
+  "author": "Gojko Adzic <gojko@gojko.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gojko/markdown-it-github-preamble/issues"
+  },
+  "homepage": "https://github.com/gojko/markdown-it-github-preamble#readme",
+  "dependencies": {
+    "js-yaml": "^3.9.0"
+  },
+  "devDependencies": {
+    "markdown-it": "^8.3.1",
+    "eslint": "^4.2.0",
+    "eslint-config-crockford": "^1.0.0",
+    "eslint-config-defaults": "^9.0.0",
+    "jasmine": "^2.6.0",
+    "jasmine-spec-reporter": "^4.1.1"
+  }
+}
