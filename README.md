@@ -41,7 +41,7 @@ The plugin works the same way _Markdown It!_ plugins work, so just `.use` it:
 
 ```js
 const Markdown = require('markdown-it'),
-	markdownItGithubPreamble = require('../src/markdown-it-github-preamble'),
+	markdownItGithubPreamble = require('markdown-it-github-preamble'),
   md = new Markdown().use(markdownItGithubPreamble);
 
 console.log(md.render(
@@ -58,7 +58,7 @@ You can also supply additional options and customise the plugin:
 
 ```js
 const Markdown = require('markdown-it'),
-	markdownItGithubPreamble = require('../src/markdown-it-github-preamble'),
+	markdownItGithubPreamble = require('markdown-it-github-preamble'),
   md = new Markdown().use(markdownItGithubPreamble, {className: 'preamble'});
 
 console.log(md.render(
