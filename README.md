@@ -74,7 +74,7 @@ abcd
 
 ### Options
 
-See the [unit tests](tests/markdown-it-github-preamble-spec.js) for example how to use all these options.
+See the [unit tests](tests/markdown-it-github-preamble-spec.js) for examples of how to use all these options.
 
 * `className`: (`string`) a CSS class that will be added to the root table element of the preamble, for easy styling. 
 * `tableAttributeName` and `tableAttributeValue`: (`string`) the name and value of a HTML attribute that will be added to the root table element of the preamble, for easy identification in DOM parsers.
